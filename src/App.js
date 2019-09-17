@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function App() {
-  const container = styled.div`
+  const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +16,9 @@ function App() {
     padding: 0.25em 1em;
   `;
   return (
-    <container>
+    <Container>
       <Button>Click me!</Button>
-    </container>
+    </Container>
   );
 }
 
