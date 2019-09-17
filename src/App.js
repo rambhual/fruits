@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 function App() {
+  const container = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `;
   const Button = styled.button`
     background: transparent;
     border-radius: 3px;
@@ -11,9 +16,9 @@ function App() {
     padding: 0.25em 1em;
   `;
   return (
-    <div className="App">
+    <container>
       <Button>Click me!</Button>
-    </div>
+    </container>
   );
 }
 
